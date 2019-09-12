@@ -14,10 +14,15 @@ You will need to create environment variables with the secrets before running th
 
 The way you set environment variables varies depending on which shell you're using. For Powershell on Windows, it is:
 
+
 $env:TwitterApiKey="<API_KEY>"
+
 $env:TwitterApiKeySecret="<API_KEY_SECRET>"
+
 $env:TwitterAccessToken="<ACCESS_TOKEN>"
+
 $env:TwitterAccessTokenSecret="<ACCESS_TOKEN_SECRET>"
+
 
 The program will only have access to environment variables from the environment block of the current process. 
 See Microsoft's docs for details on what that means for your platform.

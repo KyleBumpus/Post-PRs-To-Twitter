@@ -1,5 +1,6 @@
 # PostPRsToTwitter
-Gets latest pull requests from a Github repo and Tweets the details.
+Gets latest pull requests from a Github repo and Tweets the details. Program will fetch list of open pull requests, dedup the PRs that have already been tweeted, and tweet the rest. The program will exit on completion.
+
 Developed using .NET Core 2.2.401. If you have issues, please check that you aren't running an old version.
 
 github repo:

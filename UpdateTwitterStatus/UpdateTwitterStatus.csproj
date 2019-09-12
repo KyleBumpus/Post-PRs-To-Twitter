@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json " Version="12.0.1+509643a8952ce731e0207710c429ad6e67dc43db" />
+   </ItemGroup>
+</Project>
